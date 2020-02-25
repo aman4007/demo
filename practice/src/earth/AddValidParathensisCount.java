@@ -65,6 +65,8 @@ public class AddValidParathensisCount {
 	            count++;
 	            stack.pop();
 	        }
+	        
+	        
 	         System.out.println(count);
 
 	}
