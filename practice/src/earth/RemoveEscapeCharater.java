@@ -6,15 +6,16 @@ import java.util.Scanner;
 
 public class RemoveEscapeCharater {
 
-	private static Scanner sc;
+private static Scanner sc;
 
 	public static void main(String[] args) {
-	//	String ch = "This is nee/bw line /b /n this is /nanother one";
+		//	String ch = "This is nee/bw line /b /n this is /nanother one";
 		sc = new Scanner(System.in);
+
 		List<String> al = new ArrayList<>();
 
 		while (sc.hasNext()) {
-			
+
 			al.add(sc.next());
 			if (al.contains("abc"))
 				break;
